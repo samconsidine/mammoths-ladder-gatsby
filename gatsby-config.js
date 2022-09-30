@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `mammoths-ladder`,
-    siteUrl: `https://www.yourdomain.tld`
+    // siteUrl: `https://www.yourdomain.tld`
+    pathPrefix: "/mammoths-ladder-gatsby",
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
